@@ -13,6 +13,7 @@ module.exports = {
         "link-colol-5": "#14B7F1",
         "text-color": "#707070",
         "code_war-color": "#EE257C",
+        "bg-color": "#078FCBCC",
       }
     },
   },

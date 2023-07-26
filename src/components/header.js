@@ -29,8 +29,8 @@ const Header = () => {
                <nav className='flex items-center justify-between px-12 lg:px-44 py-3 lg:py-3 bg-white'>
                               <div><img src={logo} alt='' className='w-[40px] lg:w-[50px]'/></div>
                               <ul className='hidden lg:flex items-center justify-between gap-20 links'>
-                                             <li><Link to='' className='font-bold text-link-colol-1'>Home</Link></li>
-                                             <li><Link to='' className='font-bold text-link-colol-2'>About</Link></li>
+                                             <li><Link to='/' className='font-bold text-link-colol-1'>Home</Link></li>
+                                             <li><Link to='/about' className='font-bold text-link-colol-2'>About</Link></li>
                                              <li><Link to='' className='font-bold text-link-colol-3'>Contact</Link></li>
                                              <li><Link to='' className='font-bold text-link-colol-4'>Class</Link></li>
                                              <li><Link to='' className='font-bold text-link-colol-5'>Review</Link></li>
