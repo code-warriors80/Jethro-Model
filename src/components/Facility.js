@@ -7,7 +7,7 @@ import teacher from '../icon/icons8-student-male-94.png'
 const Facility = () => {
   return (
                <section className='special '>
-                <div className='py-20 lg:py-32 bg-red-300 landing_tran'>
+                <div className='py-20 lg:py-32'>
                     <h1 className='text-[40px] font-extrabold mb-5 text-link-colol-4 text-center'>Our School Fecilities</h1>
                     <p className='text-center font-semibold text-text-color w-[85%] lg:w-[40%] text-[16px] mx-auto'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
 

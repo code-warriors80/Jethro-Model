@@ -11,8 +11,8 @@ import logo from '../image/1574619145-removebg-preview.png'
 
 const Footer = () => {
   return (
-    <section className='special'>
-               <div className='landing_tran'>
+    <section className='footer'>
+               <div>
                               <div className='py-10 lg:py-32 w-[75%] lg:flex start justify-between mx-auto'>
                                     <div className='lg:w-[30%]'>
                                       <img src={logo} alt='' className='w-[100px] mb-5' />

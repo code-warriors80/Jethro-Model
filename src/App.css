@@ -81,7 +81,52 @@ p, a
 
 .special
 {
-  background-image: url('https://as1.ftcdn.net/v2/jpg/05/53/74/18/1000_F_553741829_aHYyWJwy4XsDVlosoQUBZouOTXjJQca1.jpg');
+  background-image: url('./image/teacher-bg-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testimonial
+{
+  background-image: url('./image/testimonial-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about_us
+{
+  background-image: url('./image/about-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about_teachers
+{
+  background-image: url('./image/teacher-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.over
+{
+  background-color: rgba(7, 143, 203, .8);
+}
+
+.footer
+{
+  background-image: url('./image/footer-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page_header
+{
+  background-image: url('./image/page-header-bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 const A_About = () => {
   return (
     <div>
-               <section className='special'>
-                              <div className='lg:flex lg:items-center lg:justify-around py-20 lg:py-[40px] px-5 lg:px-20 bg-bg-color'>
+               <section className='about_us'>
+                              <div className='lg:flex lg:items-center lg:justify-around py-20 lg:py-[40px] px-5 lg:px-20 over'>
                                              <img src={abt} alt='' className='lg:w-[40%] mb-20'/>
                                              <div className=' lg:w-[35%]'>
                                                             <h1 className='text-[40px] font-extrabold mb-5 text-white'>About Jethro Model</h1>

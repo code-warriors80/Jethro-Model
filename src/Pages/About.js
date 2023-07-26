@@ -6,12 +6,14 @@ import world from '../icon/icons8-location-94.png'
 import mind from '../icon/icons8-mind-map-94.png'
 import book from '../icon/icons8-book-shelf-94.png'
 import teacher from '../icon/icons8-student-male-94.png'
+import microphone from '../icon/icons8-microphone-94.png'
+import gadget from '../icon/icons8-multiple-devices-94.png'
 import NewsLetter from '../components/News-Letter'
 
 const About = () => {
   return (
     <div>
-               <section className='special'>
+               <section className='page_header'>
                               <div className='bg-bg-color py-20'>
                                              <h1 className='text-[40px] font-extrabold mb-5 text-white text-center'>About Jethro Model</h1>
                                              <p className='text-[16px] pb-16 font-semibold text-white text-center'>Enthusiasticay diseminate competitive oportunitie through transparent an actions Compelngly.</p>
@@ -45,7 +47,7 @@ const About = () => {
                                                                                                          <h2 className='text-center text-3xl font-extrabold mb-3 text-link-colol-5'>Music And Art Class</h2>
                                                                                                          <p className=' text-center font-bold text-text-color'>Distinctively enhance empowered and alignments without leveraged architectures professionly.</p>
                                                                                           </div>
-                                                                                          <img src={book}  alt='' className='mx-auto mb-3'/>
+                                                                                          <img src={microphone}  alt='' className='mx-auto mb-3'/>
                                                                            </div>
                                                             </div>
 
@@ -61,7 +63,7 @@ const About = () => {
                                                                            </div>
 
                                                                            <div className='mb-8 flex items-center flex-wrap'>
-                                                                                          <img src={book}  alt='' className='mx-auto mb-3'/>
+                                                                                          <img src={gadget}  alt='' className='mx-auto mb-3'/>
                                                                                           <div className='ml-5'>
                                                                                                          <h2 className='text-center text-3xl font-extrabold mb-3 text-link-colol-4'>Multimedia Class</h2>
                                                                                                          <p className='text-center font-bold text-text-color'>Distinctively enhance empowered and alignments without leveraged architectures professionly.</p>
@@ -79,7 +81,7 @@ const About = () => {
                                              </div>
                </section>
 
-               <section className='special'>
+               <section className='about_teachers'>
                               <div className='bg-bg-color-1 py-32'>
                                              <h1 className='text-[40px] font-[800] mb-5 text-white text-center'>Meet Our Teachers</h1>
                                              <p className='text-center font-semibold text-white w-[85%] lg:w-[40%] text-[16px] mx-auto mb-20'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>         
