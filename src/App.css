@@ -1,0 +1,99 @@
+body
+{
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar
+{
+  width: 0;
+}
+
+nav 
+{
+  background-color: white;
+}
+
+.header
+{
+  font-family:  cursive;
+}
+
+.links
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+  font-family: 'Bubblegum sans';
+  font-size: 41px;
+}
+
+h2
+{
+  font-family: 'Bubblegum sans';
+}
+
+.landing_trans
+{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.landing_tran
+{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+section
+{
+  z-index: 55;
+}
+
+.land-1
+{
+  background-image: url('image/african-girl-sitting-table-schoolgirls-read-book-during-break-children-sit-computer-science-class.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.land-2
+{
+  background-image: url('image/cute-kid-glasses-studio.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-3
+{
+  background-image: url('image/schoolboys-lesson.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p, a
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+.special
+{
+  background-image: url('https://as1.ftcdn.net/v2/jpg/05/53/74/18/1000_F_553741829_aHYyWJwy4XsDVlosoQUBZouOTXjJQca1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tabs
+{
+  display: none;
+}
+
+.active-tab
+{
+  background-color: white;
+  border-top: 3px solid #92278F;
+}
