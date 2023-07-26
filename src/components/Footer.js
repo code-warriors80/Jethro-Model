@@ -5,13 +5,17 @@ import twitter from '../icon/icons8-twitter-circled-94.png'
 import gmail from '../icon/icons8-gmail-logo-94.png'
 import { Link } from 'react-router-dom'
 import img from '../image/class_02.jpg'
+import class5 from '../image/gallery/gallery_15.jpg'
+import class4 from '../image/gallery/gallery_14.jpg'
+import logo from '../image/1574619145-removebg-preview.png'
 
 const Footer = () => {
   return (
     <section className='special'>
                <div className='landing_tran'>
-                              <div className='py-10 w-[75%] lg:flex start justify-between mx-auto'>
+                              <div className='py-10 lg:py-32 w-[75%] lg:flex start justify-between mx-auto'>
                                     <div className='lg:w-[30%]'>
+                                      <img src={logo} alt='' className='w-[100px] mb-5' />
                                         <p className='font-bold text-text-color'>Distily enable team driven services through extensive is a relatonships platforms with interactive content. Enthusiastically scale effective.</p>
                                         <div className='mt-5'>
                                             <p className='font-semibold text-text-color mb-3'>New Chokoya Road, USA.</p>
@@ -24,7 +28,7 @@ const Footer = () => {
                                     <div className='py-10 lg:py-0'>
                                         <h2 className='mb-5 lg:mb-5 text-[30px] text-link-colol-2 font-extrabold'>Latest News</h2>
                                         <Link className='flex items-center mb-5'>
-                                            <img src={img} alt='' className='w-[90px]'/>
+                                            <img src={img} alt='' className='w-[90px] h-[70px]'/>
                                             <div className='ml-3'>
                                               <p className='lg:w-[70%] font-semibold text-text-color text-[16px]'>Corem psum dolor the amectetuer adipiscing...</p>
                                               <span className='text-link-colol-2 font-semibold'>04 February 2021</span>
@@ -32,7 +36,7 @@ const Footer = () => {
                                         </Link>
 
                                         <Link className='flex items-center mb-5'>
-                                            <img src={img} alt='' className='w-[90px]'/>
+                                            <img src={class4} alt='' className='w-[90px] h-[70px]'/>
                                             <div className='ml-3'>
                                               <p className='lg:w-[70%] font-semibold text-text-color text-[16px]'>Corem psum dolor the amectetuer adipiscing...</p>
                                               <span className='text-link-colol-2 font-semibold'>04 February 2021</span>
@@ -40,7 +44,7 @@ const Footer = () => {
                                         </Link>
 
                                         <Link className='flex items-center'>
-                                            <img src={img} alt='' className='w-[90px]'/>
+                                            <img src={class5} alt='' className='w-[90px] h-[70px]'/>
                                             <div className='ml-3'>
                                               <p className='lg:w-[70%] font-semibold text-text-color text-[16px]'>Corem psum dolor the amectetuer adipiscing...</p>
                                               <span className='text-link-colol-2 font-semibold'>04 February 2021</span>

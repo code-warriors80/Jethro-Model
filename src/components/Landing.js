@@ -5,7 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const Landing = () => {
   return (
-               <Carousel className='h-[100vh] carosel'>
+               <Carousel showArrows={false} infiniteLoop={true} interval={2} className='h-[100vh] carosel'>
                           <div className='h-[100vh] land-1'>
                                         <div className='landing_trans w-full h-full flex items-center justify-center'>
                                                       <div className=''>
