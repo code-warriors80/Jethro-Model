@@ -14,6 +14,7 @@ module.exports = {
         "text-color": "#707070",
         "code_war-color": "#EE257C",
         "bg-color": "#078FCBCC",
+        "bg-color-1": "#47AB23CC",
       }
     },
   },
