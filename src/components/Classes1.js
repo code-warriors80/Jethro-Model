@@ -11,7 +11,7 @@ import class9 from '../image/class/class_09.jpg'
 
 const Classes1 = () => {
   return (
-               <div className='lg:w-[75%] lg:flex items-center justify-between flex-wrap mx-auto gap-10 mt-16 mb-16 px-5'>
+               <div className='lg:w-[75%] lg:flex items-center justify-between flex-wrap mx-auto gap-10 lg:mt-64 mt-44 mb-16 px-5'>
                               <div className='shadow-lg mb-10 lg:mb-0 lg:lg:w-[30%]'>
                                              <img src={class1} alt='' className='w-full'/>
                                              <div className='flex items-center justify-stretch text-white gap-1'>

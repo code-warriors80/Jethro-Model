@@ -31,18 +31,18 @@ const Header = () => {
                               <ul className='hidden lg:flex items-center justify-between gap-20 links'>
                                              <li><Link to='/' className='font-bold text-link-colol-1'>Home</Link></li>
                                              <li><Link to='/about' className='font-bold text-link-colol-2'>About</Link></li>
+                                             <li><Link to='/classes' className='font-bold text-link-colol-4'>Class</Link></li>
+                                             <li><Link to='/gallery' className='font-bold text-link-colol-5'>Gallery</Link></li>
                                              <li><Link to='' className='font-bold text-link-colol-3'>Contact</Link></li>
-                                             <li><Link to='classes' className='font-bold text-link-colol-4'>Class</Link></li>
-                                             <li><Link to='' className='font-bold text-link-colol-5'>Gallery</Link></li>
                               </ul>
 
                                 {model === true && (
                                               <ul className='mobilelinks lg:hidden fixed w-full left-0 top-[72px] h-[89vh] justify-between gap-20 links'>
                                                               <li className='p-10'><Link to='/' className='font-bold text-link-colol-1' onClick={() => setModel(false)}>Home</Link></li>
                                                               <li className='p-10'><Link to='/about' className='font-bold text-link-colol-2' onClick={() => setModel(false)}>About</Link></li>
-                                                              <li className='p-10'><Link to='' className='font-bold text-link-colol-3' onClick={() => setModel(false)}>Contact</Link></li>
                                                               <li className='p-10'><Link to='/classes' className='font-bold text-link-colol-4' onClick={() => setModel(false)}>Class</Link></li>
                                                               <li className='p-10'><Link to='' className='font-bold text-link-colol-5' onClick={() => setModel(false)}>Gallery</Link></li>
+                                                              <li className='p-10'><Link to='' className='font-bold text-link-colol-3' onClick={() => setModel(false)}>Contact</Link></li>
                                               </ul>
                                 )}
 

@@ -13,13 +13,13 @@ import NewsLetter from '../components/News-Letter'
 const About = () => {
   return (
     <div>
-               <section className='page_header zig_zag'>
+               <section className='page_header zig_zag top-24 lg:top-40'>
                               <div className='bg-bg-color py-20'>
                                              <h1 className='text-[40px] font-extrabold mb-5 text-white text-center'>About Jethro Model</h1>
-                                             <p className='text-[16px] pb-16 font-semibold text-white text-center'>Home - About us</p>
+                                             <p className='text-[18px] pb-16 font-semibold text-white text-center'>Home - About us</p>
                               </div>
                </section>
-               <Facility2 />
+               <Facility2/>
                <About2 />
                <section className='py-20'>
                                              <h1 className='text-[40px] font-[800] mb-5 text-link-colol-4 text-center'>Why Choose KidsAcademy</h1>

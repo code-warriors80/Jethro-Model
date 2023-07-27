@@ -7,7 +7,7 @@ import teacher from '../icon/icons8-student-male-94.png'
 const Facility2 = () => {
   return (
     <div>
-               <div className='w-[75%] lg:flex items-center justify-between mx-auto py-16'>
+               <div className='w-[75%] lg:flex items-center justify-between mx-auto py-16 mt-32'>
                           <div className='mb-5'>
                               <img src={book} alt='' className='mx-auto mb-5'/>
                               <h1 className='text-[25px] font-bold text-center text-link-colol-1 mb-5'>Active Learning</h1>
