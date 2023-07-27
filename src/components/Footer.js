@@ -56,7 +56,7 @@ const Footer = () => {
                                     <h2 className='mb-5 lg:mb-0 text-[30px] text-link-colol-3 font-extrabold'>Recent Photos</h2>
                                     </div>
                               </div>
-                              <div className='py-5 lg:flex items-center justify-around bg-gray-200'>
+                              <div className='py-10 lg:flex items-center justify-around bg-[#FAFAFA]'>
                                              <p className='text-center'>© 2021. Developed By <span className='text-code_war-color font-extrabold'>Code_Warriors</span></p>
                                              <div className='flex items-center justify-center gap-10 mt-3 lg:mt-0'>
                                                             <Link><img src={insta} alt='' className='w-6'/></Link>

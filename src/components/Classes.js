@@ -1,7 +1,7 @@
 import React from 'react'
-import class1 from '../image/class_01.jpg'
-import class2 from '../image/class_02.jpg'
-import class3 from '../image/class_03.jpg'
+import class1 from '../image/class/class_01.jpg'
+import class2 from '../image/class/class_02.jpg'
+import class3 from '../image/class/class_03.jpg'
 import { Link } from 'react-router-dom'
 
 const Classes = () => {
@@ -85,7 +85,7 @@ const Classes = () => {
                     </div>
 
                     <div className='flex items-center justify-center mt-20'>
-                      <Link className='bg-link-colol-4 px-8 py-4 text-white font-bold mx-auto'>See More Classes</Link>
+                      <Link to='/classes' className='bg-link-colol-4 px-8 py-4 text-white font-bold mx-auto'>See More Classes</Link>
                       </div>
                </section>
   )

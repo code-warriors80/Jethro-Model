@@ -21,7 +21,7 @@ const Home = () => {
                                              <h1 className='text-[40px] font-extrabold mb-5 text-link-colol-4'>About Jethro Model</h1>
                                              <p className='text-[16px] pb-16 font-semibold text-text-color'>Enthusiasticay diseminate competitive oportunitie through transparent an actions Compelngly seize viral schemas through intermandated creative is adiea sources. Enthusiasticay plagiarize clientcentered relationship for the covalent experiences. Distinctively architect 24/365 service for wireless is ebusiness ahosfluorescently Efficiently comunicate coperative methods of empowerment awesome athrough Monotonectaly myocardinate cross and functional niche markets and an functional.</p>
                                              <div className='flex items-center gap-5'>
-                                                                           <Link className='bg-link-colol-4 px-8 py-4 text-white font-bold'>Read More</Link>
+                                                                           <Link to='/about' className='bg-link-colol-4 px-8 py-4 text-white font-bold'>Read More</Link>
                                                                            <Link className='bg-link-colol-2 px-8 py-4 text-white font-bold'>Buy Now</Link>
                                              </div>
                               </div>

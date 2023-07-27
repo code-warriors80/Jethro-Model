@@ -4,7 +4,7 @@ import mind from '../icon/icons8-mind-map-94.png'
 import book from '../icon/icons8-book-shelf-94.png'
 import teacher from '../icon/icons8-student-male-94.png'
 
-const A_Facility = () => {
+const Facility2 = () => {
   return (
     <div>
                <div className='w-[75%] lg:flex items-center justify-between mx-auto py-16'>
@@ -36,4 +36,4 @@ const A_Facility = () => {
   )
 }
 
-export default A_Facility
+export default Facility2

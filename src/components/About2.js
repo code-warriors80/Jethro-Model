@@ -2,10 +2,10 @@ import React from 'react'
 import abt from '../image/about-3.png'
 import { Link } from 'react-router-dom'
 
-const A_About = () => {
+const About2 = () => {
   return (
     <div>
-               <section className='about_us'>
+               <section className='about_us zig_zag'>
                               <div className='lg:flex lg:items-center lg:justify-around py-20 lg:py-[40px] px-5 lg:px-20 over'>
                                              <img src={abt} alt='' className='lg:w-[40%] mb-20'/>
                                              <div className=' lg:w-[35%]'>
@@ -22,4 +22,4 @@ const A_About = () => {
   )
 }
 
-export default A_About
+export default About2
