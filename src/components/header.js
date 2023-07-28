@@ -7,6 +7,7 @@ import menu from '../icon/icons8-menu-94.png'
 import close from '../icon/icons8-close-94.png'
 import { Link } from 'react-router-dom'
 import logo from '../image/1574619145-removebg-preview.png'
+import { motion } from 'framer-motion';
 
 const Header = () => {
     const [model, setModel] = useState(false);
@@ -26,7 +27,7 @@ const Header = () => {
                               </div>
                </div>
 
-               <nav className='flex items-center justify-between px-12 lg:px-44 py-3 lg:py-3 bg-white'>
+               <motion.nav initial={{y: -150}} animate={{y: 0}} transition={{delay: 1.0}} className='flex items-center justify-between px-12 lg:px-44 py-3 lg:py-3 bg-white'>
                               <div><img src={logo} alt='' className='w-[40px] lg:w-[50px]'/></div>
                               <ul className='hidden lg:flex items-center justify-between gap-20 links'>
                                              <li><Link to='/' className='font-bold text-link-colol-1'>Home</Link></li>
@@ -41,13 +42,13 @@ const Header = () => {
                                                               <li className='p-10'><Link to='/' className='font-bold text-link-colol-1' onClick={() => setModel(false)}>Home</Link></li>
                                                               <li className='p-10'><Link to='/about' className='font-bold text-link-colol-2' onClick={() => setModel(false)}>About</Link></li>
                                                               <li className='p-10'><Link to='/classes' className='font-bold text-link-colol-4' onClick={() => setModel(false)}>Class</Link></li>
-                                                              <li className='p-10'><Link to='' className='font-bold text-link-colol-5' onClick={() => setModel(false)}>Gallery</Link></li>
+                                                              <li className='p-10'><Link to='/gallery' className='font-bold text-link-colol-5' onClick={() => setModel(false)}>Gallery</Link></li>
                                                               <li className='p-10'><Link to='' className='font-bold text-link-colol-3' onClick={() => setModel(false)}>Contact</Link></li>
                                               </ul>
                                 )}
 
                               {model === false ?(<button className='lg:hidden block'><img src={menu} alt='' className='w-8' onClick={() => setModel(true)}/></button>) : (<button className='lg:hidden block'><img src={close} alt='' className='w-8' onClick={() => setModel(false)}/></button>)}
-               </nav>
+               </motion.nav>
     </div>
   )
 }

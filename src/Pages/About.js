@@ -9,14 +9,15 @@ import teacher from '../icon/icons8-student-male-94.png'
 import microphone from '../icon/icons8-microphone-94.png'
 import gadget from '../icon/icons8-multiple-devices-94.png'
 import NewsLetter from '../components/News-Letter'
+import {motion} from 'framer-motion'
 
 const About = () => {
   return (
     <div>
                <section className='page_header zig_zag top-24 lg:top-40'>
                               <div className='bg-bg-color py-20'>
-                                             <h1 className='text-[40px] font-extrabold mb-5 text-white text-center'>About Jethro Model</h1>
-                                             <p className='text-[18px] pb-16 font-semibold text-white text-center'>Home - About us</p>
+                                             <motion.h1 initial={{opacity: 0}} animate={{opacity: 2}} transition={{delay: 1.5, duration: 5}} className='text-[40px] font-extrabold mb-5 text-white text-center'>About Jethro Model</motion.h1>
+                                             <motion.p initial={{opacity: 0}} animate={{opacity: 2}} transition={{delay: 1.5, duration: 5}} className='text-[18px] pb-16 font-semibold text-white text-center'>Home - About us</motion.p>
                               </div>
                </section>
                <Facility2/>
