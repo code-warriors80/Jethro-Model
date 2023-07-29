@@ -8,7 +8,7 @@ const Event = () => {
   return (
                <section className='py-32 px-5 lg:px-10'>
                <h1 className='text-[40px] font-extrabold mb-5 text-link-colol-4 text-center'>Don't Miss Our Event</h1>
-               <p className='text-center font-semibold text-text-color w-[85%] lg:w-[40%] text-[16px] mx-auto'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
+               <p className='text-center font-semibold text-black w-[85%] lg:w-[40%] text-[16px] mx-auto'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
 
                <div className='lg:flex justify-between lg:w-[75%] mx-auto gap-10 mt-16'>
                      <div className='border-2 border-gray-100 border-solid mb-10 lg:mb-0 hover:shadow-lg'>

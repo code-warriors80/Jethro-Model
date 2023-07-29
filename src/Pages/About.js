@@ -24,7 +24,7 @@ const About = () => {
                <About2 />
                <section className='py-20'>
                                              <h1 className='text-[40px] font-[800] mb-5 text-link-colol-4 text-center'>Why Choose KidsAcademy</h1>
-                                             <p className='text-center font-semibold text-text-color w-[85%] lg:w-[40%] text-[16px] mx-auto mb-20'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
+                                             <p className='text-center font-semibold text-black w-[85%] lg:w-[40%] text-[16px] mx-auto mb-20'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
                                              <div className='lg:flex items-center justify-between w-[75%] mx-auto'>
                                                             <div>
                                                                            <div className='mb-8 flex items-center flex-wrap-reverse'>

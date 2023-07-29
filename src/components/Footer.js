@@ -9,11 +9,22 @@ import class5 from '../image/gallery/gallery_15.jpg'
 import class4 from '../image/gallery/gallery_14.jpg'
 import logo from '../image/1574619145-removebg-preview.png'
 
+// GALLERY
+import g1 from '../image/gallery/gallery_01.jpg'
+import g2 from '../image/gallery/gallery_02.jpg'
+import g3 from '../image/gallery/gallery_03.jpg'
+import g4 from '../image/gallery/gallery_04.jpg'
+import g5 from '../image/gallery/gallery_05.jpg'
+import g6 from '../image/gallery/gallery_06.jpg'
+import g7 from '../image/gallery/gallery_07.jpg'
+import g8 from '../image/gallery/gallery_08.jpg'
+import g9 from '../image/gallery/gallery_09.jpg'
+
 const Footer = () => {
   return (
     <section className='footer'>
                <div>
-                              <div className='py-10 lg:py-32 w-[75%] lg:flex start justify-between mx-auto'>
+                              <div className='py-10 lg:py-30 w-[75%] lg:flex start lg:justify-between mx-auto'>
                                     <div className='lg:w-[30%]'>
                                       <img src={logo} alt='' className='w-[100px] mb-5' />
                                         <p className='font-bold text-text-color'>Distily enable team driven services through extensive is a relatonships platforms with interactive content. Enthusiastically scale effective.</p>
@@ -52,8 +63,19 @@ const Footer = () => {
                                         </Link>
                                     </div>
 
-                                    <div>
-                                    <h2 className='mb-5 lg:mb-0 text-[30px] text-link-colol-3 font-extrabold'>Recent Photos</h2>
+                                    <div className='lg:w-[25%]'>
+                                    <h2 className='mb-5 lg:mb-5 text-[30px] text-link-colol-3 font-extrabold'>Recent Photos</h2>
+                                    <div className='flex flex-wrap gap-2 lg:gap-3'>
+                                          <img src={g1} alt=' ' />
+                                          <img src={g2} alt=' ' />
+                                          <img src={g3} alt=' ' />
+                                          <img src={g4} alt=' ' />
+                                          <img src={g5} alt=' ' />
+                                          <img src={g6} alt=' ' />
+                                          <img src={g7} alt=' ' />
+                                          <img src={g8} alt=' ' />
+                                          <img src={g9} alt=' ' />
+                                    </div>
                                     </div>
                               </div>
                               <div className='py-10 lg:flex items-center justify-around bg-[#FAFAFA]'>

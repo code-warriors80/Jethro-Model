@@ -29,7 +29,7 @@ const Teachers = () => {
 <section className='special'>
                 <div className='py-32 '>
                 <h1 className='text-[40px] font-extrabold mb-5 text-link-colol-4 text-center'>Meet Our Teachers</h1>
-                    <p className='text-center font-semibold text-text-color w-[85%] lg:w-[40%] text-[16px] mx-auto mb-20'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
+                    <p className='text-center font-semibold text-black w-[85%] lg:w-[40%] text-[16px] mx-auto mb-20'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
                     <Carousel responsive={responsive}   swipeable={true} draggable={true}
                       infinite={true}
                        className='flex items-center justify-between w-[70%] mx-auto'>

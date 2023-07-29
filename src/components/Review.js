@@ -8,7 +8,7 @@ const Review = () => {
                <section className='testimonial'>
                               <div className='py-32'>
                                              <h1 className='text-[40px] font-extrabold mb-5 text-link-colol-4 text-center'>What Parents Say</h1>
-                                             <p className='text-center font-semibold text-text-color w-[85%] lg:w-[40%] text-[16px] mx-auto'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
+                                             <p className='text-center font-semibold text-black w-[85%] lg:w-[40%] text-[16px] mx-auto'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
 
                                              <Carousel className=''>
                                                             <div className='w-[85%] lg:w-[40%] mx-auto'>
