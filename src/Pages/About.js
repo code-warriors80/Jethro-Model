@@ -10,6 +10,7 @@ import microphone from '../icon/icons8-microphone-94.png'
 import gadget from '../icon/icons8-multiple-devices-94.png'
 import NewsLetter from '../components/News-Letter'
 import {motion} from 'framer-motion'
+import { Zoom } from 'react-reveal'
 
 const About = () => {
   return (
@@ -26,6 +27,7 @@ const About = () => {
                                              <h1 className='text-[40px] font-[800] mb-5 text-link-colol-4 text-center'>Why Choose KidsAcademy</h1>
                                              <p className='text-center font-semibold text-black w-[85%] lg:w-[40%] text-[16px] mx-auto mb-20'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
                                              <div className='lg:flex items-center justify-between w-[75%] mx-auto'>
+                                                            <Zoom left>
                                                             <div>
                                                                            <div className='mb-8 flex items-center flex-wrap-reverse'>
                                                                                           <div className='mr-5'>
@@ -51,9 +53,11 @@ const About = () => {
                                                                                           <img src={microphone}  alt='' className='mx-auto mb-3'/>
                                                                            </div>
                                                             </div>
+                                                            </Zoom>
 
                                                             <img src={boys} alt='' className='py-10'/>
 
+                                                            <Zoom right>
                                                             <div>
                                                                            <div className='mb-8 flex items-center flex-wrap'>
                                                                                           <img src={teacher}  alt='' className='mx-auto mb-3'/>
@@ -79,6 +83,7 @@ const About = () => {
                                                                                           </div>
                                                                            </div>  
                                                             </div>
+                                                            </Zoom>
                                              </div>
                </section>
 

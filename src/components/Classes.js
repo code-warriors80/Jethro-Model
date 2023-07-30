@@ -3,6 +3,7 @@ import class1 from '../image/class/class_01.jpg'
 import class2 from '../image/class/class_02.jpg'
 import class3 from '../image/class/class_03.jpg'
 import { Link } from 'react-router-dom'
+import Zoom from 'react-reveal/Zoom';
 
 const Classes = () => {
   return (
@@ -11,6 +12,7 @@ const Classes = () => {
                     <p className='text-center font-semibold text-black w-[85%] lg:w-[40%] text-[16px] mx-auto'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
 
                     <div className='lg:w-[75%] lg:flex items-center justify-between mx-auto gap-10 mt-16'>
+                    <Zoom left>
                         <div className='shadow-lg mb-10 lg:mb-0'>
                         <img src={class1} alt='' className='w-full'/>
                                 <div className='flex items-center justify-stretch text-white gap-1'>
@@ -34,6 +36,9 @@ const Classes = () => {
                           </div>
                             <div className='bg-link-colol-2 py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                         </div>
+                        </Zoom>
+
+                        <Zoom>
 
                         <div className='shadow-lg mb-10 lg:mb-0'>
                               <img src={class2} alt='' className='w-full'/>
@@ -59,6 +64,10 @@ const Classes = () => {
                             <div className='bg-link-colol-1 py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                         </div>
 
+                        </Zoom>
+
+                        <Zoom right>
+
                         <div className='shadow-lg mb-10 lg:mb-0'>
                         <img src={class3} alt='' className='w-full'/>
                                 <div className='flex items-center justify-stretch text-white gap-1'>
@@ -82,7 +91,9 @@ const Classes = () => {
                           </div>
                             <div className='bg-link-colol-3 py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                         </div>
+                        </Zoom>
                     </div>
+                    
 
                     <div className='flex items-center justify-center mt-20'>
                       <Link to='/classes' className='bg-link-colol-4 px-8 py-4 text-white font-bold mx-auto'>See More Classes</Link>

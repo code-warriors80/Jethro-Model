@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import class1 from '../image/class_01.jpg'
 import class2 from '../image/class_02.jpg'
 import class3 from '../image/class_03.jpg'
+import Zoom from 'react-reveal/Zoom';
 
 const Event = () => {
   return (
@@ -11,6 +12,7 @@ const Event = () => {
                <p className='text-center font-semibold text-black w-[85%] lg:w-[40%] text-[16px] mx-auto'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
 
                <div className='lg:flex justify-between lg:w-[75%] mx-auto gap-10 mt-16'>
+                <Zoom left>
                      <div className='border-2 border-gray-100 border-solid mb-10 lg:mb-0 hover:shadow-lg'>
                            <img src={class1} alt='' className='w-full'/>
                            <div className='text-center px-3 h-0'>
@@ -28,7 +30,9 @@ const Event = () => {
                                </div>
                            </div>
                      </div>
+                     </Zoom>
 
+                    <Zoom>
                      <div className='border-2 border-gray-100 border-solid mb-10 lg:mb-0  hover:shadow-lg'>
                            <img src={class2} alt='' className='w-full'/>
                            <div className='text-center px-3 h-0'>
@@ -46,7 +50,8 @@ const Event = () => {
                                </div>
                            </div>
                      </div>
-
+                     </Zoom>
+                    <Zoom right>
                      <div className='border-2 border-gray-100 border-solid  hover:shadow-lg'>
                            <img src={class3} alt='' className='w-full'/>
                            <div className='text-center px-3 h-0'>
@@ -64,6 +69,7 @@ const Event = () => {
                                </div>
                            </div>
                      </div>
+                     </Zoom>
                </div>
        </section>    
   )

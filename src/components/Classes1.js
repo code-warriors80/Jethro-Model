@@ -8,10 +8,12 @@ import class6 from '../image/class/class_06.jpg'
 import class7 from '../image/class/class_07.jpg'
 import class8 from '../image/class/class_08.jpg'
 import class9 from '../image/class/class_09.jpg'
+import { Zoom } from 'react-reveal'
 
 const Classes1 = () => {
   return (
                <div className='lg:w-[75%] lg:flex items-center justify-between flex-wrap mx-auto gap-10 lg:mt-64 mt-44 mb-16 px-5'>
+                              <Zoom left>
                               <div className='shadow-lg mb-10 lg:mb-0 lg:lg:w-[30%]'>
                                              <img src={class1} alt='' className='w-full'/>
                                              <div className='flex items-center justify-stretch text-white gap-1'>
@@ -35,7 +37,9 @@ const Classes1 = () => {
                                              </div>
                                              <div className='bg-link-colol-2 py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                               </div>
+                              </Zoom>
 
+                              <Zoom>
                               <div className='shadow-lg mb-10 lg:mb-0 lg:lg:w-[30%]'>
                                              <img src={class2} alt='' className='w-full'/>
                                              <div className='flex items-center justify-stretch text-white gap-1'>
@@ -59,7 +63,9 @@ const Classes1 = () => {
                                              </div>
                                              <div className='bg-link-colol-1 py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                               </div>
+                              </Zoom>
 
+                              <Zoom right>
                               <div className='shadow-lg mb-10 lg:mb-0 lg:w-[30%]'>
                                              <img src={class3} alt='' className='w-full'/>
                                              <div className='flex items-center justify-stretch text-white gap-1'>
@@ -83,7 +89,9 @@ const Classes1 = () => {
                                              </div>
                                              <div className='bg-link-colol-3 py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                               </div>
+                              </Zoom>
 
+                              <Zoom left>
                               <div className='shadow-lg mb-10 lg:mb-0 lg:w-[30%]'>
                                              <img src={class4} alt='' className='w-full'/>
                                              <div className='flex items-center justify-stretch text-white gap-1'>
@@ -107,7 +115,9 @@ const Classes1 = () => {
                                              </div>
                                              <div className='bg-link-colol-4 py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                               </div>
+                              </Zoom>
 
+                              <Zoom>
                               <div className='shadow-lg mb-10 lg:mb-0 lg:w-[30%]'>
                                              <img src={class5} alt='' className='w-full'/>
                                              <div className='flex items-center justify-stretch text-white gap-1'>
@@ -131,7 +141,9 @@ const Classes1 = () => {
                                              </div>
                                              <div className='bg-link-colol-5 py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                               </div>
+                              </Zoom>
 
+                              <Zoom right>
                               <div className='shadow-lg mb-10 lg:mb-0 lg:w-[30%]'>
                                              <img src={class6} alt='' className='w-full'/>
                                              <div className='flex items-center justify-stretch text-white gap-1'>
@@ -155,7 +167,9 @@ const Classes1 = () => {
                                              </div>
                                              <div className='bg-link-colol-6 py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                               </div>
+                              </Zoom>
 
+                              <Zoom left>
                               <div className='shadow-lg mb-10 lg:mb-0 lg:w-[30%]'>
                                              <img src={class7} alt='' className='w-full'/>
                                              <div className='flex items-center justify-stretch text-white gap-1'>
@@ -179,7 +193,9 @@ const Classes1 = () => {
                                              </div>
                                              <div className='bg-code_war-color py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                               </div>
+                              </Zoom>
 
+                              <Zoom>
                               <div className='shadow-lg mb-10 lg:mb-0 lg:w-[30%]'>
                                              <img src={class8} alt='' className='w-full'/>
                                              <div className='flex items-center justify-stretch text-white gap-1'>
@@ -203,7 +219,9 @@ const Classes1 = () => {
                                              </div>
                                              <div className='bg-link-colol-7 py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                               </div>
+                              </Zoom>
 
+                              <Zoom right>
                               <div className='shadow-lg mb-10 lg:mb-0 lg:w-[30%]'>
                                              <img src={class9} alt='' className='w-full'/>
                                              <div className='flex items-center justify-stretch text-white gap-1'>
@@ -227,6 +245,7 @@ const Classes1 = () => {
                                              </div>
                                              <div className='bg-link-colol-8 py-2 px-6 text-white font-semibold'>218 New Newyork Road, USA- 1205</div>
                               </div>
+                              </Zoom>
            </div>
   )
 }
