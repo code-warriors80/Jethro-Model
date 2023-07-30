@@ -93,7 +93,7 @@ const About = () => {
           
           <div className=' lg:flex'>
             <div className="max-w-sm w-full lg:max-w-[35%] lg:flex mx-auto mt-2 mb-2">
-              <img className=" w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"  src={teachers} alt='pic'/>
+              <img className=" w-full rounded-t-lg h-96 md:h-auto md:w-52 md:rounded-none md:rounded-l-lg"  src={teachers} alt='pic'/>
               <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
                   <p className="text-sm text-gray-600 flex items-center">
@@ -116,7 +116,7 @@ const About = () => {
             </div>
 
             <div className="max-w-sm w-full lg:max-w-[35%] lg:flex mx-auto mt-2 mb-2">
-              <img className=" w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"  src={teachers1} alt='pic'/>
+              <img className=" w-full rounded-t-lg h-96 md:h-auto md:w-52 md:rounded-none md:rounded-l-lg"  src={teachers1} alt='pic'/>
               <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
                   <p className="text-sm text-gray-600 flex items-center">
@@ -141,7 +141,7 @@ const About = () => {
 
           <div className=' lg:flex'>
             <div className="max-w-sm w-full lg:max-w-[35%] lg:flex mx-auto mt-2 mb-2">
-              <img className=" w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"  src={teachers2} alt='pic'/>
+              <img className=" w-full rounded-t-lg h-96 md:h-auto md:w-52 md:rounded-none md:rounded-l-lg"  src={teachers2} alt='pic'/>
               <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
                   <p className="text-sm text-gray-600 flex items-center">
