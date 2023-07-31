@@ -8,6 +8,7 @@ import close from '../icon/icons8-close-94.png'
 import { Link } from 'react-router-dom'
 import logo from '../image/1574619145-removebg-preview.png'
 
+
 const Header = () => {
     const [model, setModel] = useState(false);
   return (

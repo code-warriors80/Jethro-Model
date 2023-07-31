@@ -11,8 +11,11 @@ import gadget from '../icon/icons8-multiple-devices-94.png';
 import NewsLetter from '../components/News-Letter';
 import teachers from "../image/teachers/teacher1.avif";
 import teachers1 from "../image/teachers/teacher2.avif";
-import teachers2 from "../image/teachers/teacher3.avif";
-import teachers3 from "../image/teachers/teacher4.avif";
+//import teachers2 from "../image/teachers/teacher3.avif";
+//import teachers3 from "../image/teachers/teacher4.avif";
+import insta from '../icon/icons8-instagram-94.png'
+import facebook from '../icon/icons8-facebook-94.png'
+import twitter from '../icon/icons8-twitter-circled-94.png'
 
 
 const About = () => {
@@ -92,47 +95,59 @@ const About = () => {
           <p className='text-center font-semibold text-white w-[85%] lg:w-[40%] text-[16px] mx-auto mb-20'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
           
           <div className=' lg:flex'>
-            <div className="max-w-sm w-full lg:max-w-[35%] lg:flex mx-auto mt-2 mb-2">
-              <img className=" w-full rounded-t-lg h-96 md:h-auto md:w-52 md:rounded-none md:rounded-l-lg"  src={teachers} alt='pic'/>
-              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div className="max-w-sm w-full lg:max-w-[40%] lg:flex mx-auto mt-2 mb-2">
+              <img className=" w-full rounded-t-lg h-56 md:h-auto md:w-52 md:rounded-none md:rounded-l-lg"  src={teachers} alt='pic'/>
+              <div className=" bg-purple-900 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
-                  <p className="text-sm text-gray-600 flex items-center">
-                    <svg className="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <p className="text-sm text-white flex items-center">
+                    <svg className="fill-current text-white w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                       <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
                     </svg>
-                    Members only
+                    Staff
                   </p>
-                  <div className="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
-                  <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                  <div className=" text-white font-bold text-xl mb-2">
+                     <div className='flex items-center gap-10'>
+                        <i><img src={insta} alt='' className='w-6'/></i>
+                        <i><img src={facebook} alt='' className='w-6'/></i>
+                        <i><img src={twitter} alt='' className='w-6'/></i>
+                      </div>
+                  </div>
+                  <p className=" text-white text-base">Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.</p>
                 </div>
                 <div className="flex items-center">
                   {/* <img className="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink"> */}
                   <div className="text-sm">
-                    <p className="text-gray-900 leading-none">Jonathan Reinink</p>
-                    <p className="text-gray-600">Aug 18</p>
+                    <p className=" text-white leading-none">Robot Jhonson</p>
+                    <p className=" text-white">Mathematics Teacher</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="max-w-sm w-full lg:max-w-[35%] lg:flex mx-auto mt-2 mb-2">
-              <img className=" w-full rounded-t-lg h-96 md:h-auto md:w-52 md:rounded-none md:rounded-l-lg"  src={teachers1} alt='pic'/>
-              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div className="max-w-sm w-full lg:max-w-[40%] lg:flex mx-auto mt-2 mb-2">
+              <img className=" w-full rounded-t-lg h-56 md:h-auto md:w-52 md:rounded-none md:rounded-l-lg"  src={teachers1} alt='pic'/>
+              <div className=" bg-red-700 border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
-                  <p className="text-sm text-gray-600 flex items-center">
-                    <svg className="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <p className="text-sm text-white flex items-center">
+                    <svg className="fill-current text-white w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                       <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
                     </svg>
-                    Members only
+                    Staff
                   </p>
-                  <div className="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
-                  <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                  <div className=" text-white font-bold text-xl mb-2">
+                      <div className='flex items-center gap-10'>
+                        <i><img src={insta} alt='' className='w-6'/></i>
+                        <i><img src={facebook} alt='' className='w-6'/></i>
+                        <i><img src={twitter} alt='' className='w-6'/></i>
+                      </div>
+                  </div>
+                  <p className=" text-white text-base">Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.</p>
                 </div>
                 <div className="flex items-center">
                   {/* <img className="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink"> */}
                   <div className="text-sm">
-                    <p className="text-gray-900 leading-none">Jonathan Reinink</p>
-                    <p className="text-gray-600">Aug 18</p>
+                    <p className="text-white leading-none">Broklyn Doel </p>
+                    <p className="text-white">Social Studies Teacher</p>
                   </div>
                 </div>
               </div>
@@ -140,47 +155,59 @@ const About = () => {
           </div>
 
           <div className=' lg:flex'>
-            <div className="max-w-sm w-full lg:max-w-[35%] lg:flex mx-auto mt-2 mb-2">
-              <img className=" w-full rounded-t-lg h-96 md:h-auto md:w-52 md:rounded-none md:rounded-l-lg"  src={teachers2} alt='pic'/>
-              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div className="max-w-sm w-full lg:max-w-[40%] lg:flex mx-auto mt-2 mb-2">
+              <img className=" w-full rounded-t-lg h-56 md:h-auto md:w-52 md:rounded-none md:rounded-l-lg"  src={teachers} alt='pic'/>
+              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-blue-800 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
-                  <p className="text-sm text-gray-600 flex items-center">
-                    <svg className="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <p className="text-sm text-white flex items-center">
+                    <svg className="fill-current text-white w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                       <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
                     </svg>
-                    Members only
+                    Staff
                   </p>
-                  <div className="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
-                  <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                  <div className="text-white font-bold text-xl mb-2">
+                     <div className='flex items-center gap-10'>
+                        <i><img src={insta} alt='' className='w-6'/></i>
+                        <i><img src={facebook} alt='' className='w-6'/></i>
+                        <i><img src={twitter} alt='' className='w-6'/></i>
+                      </div>
+                  </div>
+                  <p className="text-white text-base">Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.</p>
                 </div>
                 <div className="flex items-center">
                   {/* <img className="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink"> */}
                   <div className="text-sm">
-                    <p className="text-gray-900 leading-none">Jonathan Reinink</p>
-                    <p className="text-gray-600">Aug 18</p>
+                    <p className="text-white leading-none">Robot Jhonson</p>
+                    <p className="text-white">Mathematics Teacher</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="max-w-sm w-full lg:max-w-[35%] lg:flex mx-auto mt-2 mb-2">
-              <img className=" w-full rounded-t-lg h-96 md:h-auto md:w-52 md:rounded-none md:rounded-l-lg"  src={teachers3} alt='pic'/>
-              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div className="max-w-sm w-full lg:max-w-[40%] lg:flex mx-auto mt-2 mb-2">
+              <img className=" w-full rounded-t-lg h-56 md:h-auto md:w-52 md:rounded-none md:rounded-l-lg"  src={teachers1} alt='pic'/>
+              <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-yellow-500 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="mb-8">
-                  <p className="text-sm text-gray-600 flex items-center">
-                    <svg className="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <p className="text-sm text-white flex items-center">
+                    <svg className="fill-current text-white w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                       <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
                     </svg>
-                    Members only
+                    Staff
                   </p>
-                  <div className="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
-                  <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                  <div className="text-white font-bold text-xl mb-2">
+                      <div className='flex items-center gap-10'>
+                        <i><img src={insta} alt='' className='w-6'/></i>
+                        <i><img src={facebook} alt='' className='w-6'/></i>
+                        <i><img src={twitter} alt='' className='w-6'/></i>
+                      </div>
+                  </div>
+                  <p className="text-white text-base">Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.</p>
                 </div>
                 <div className="flex items-center">
                   {/* <img className="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink"> */}
                   <div className="text-sm">
-                    <p className="text-gray-900 leading-none">Jonathan Reinink</p>
-                    <p className="text-gray-600">Aug 18</p>
+                    <p className="text-white leading-none">Broklyn Doel </p>
+                    <p className="text-white">Social Studies Teacher</p>
                   </div>
                 </div>
               </div>
@@ -193,4 +220,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;
