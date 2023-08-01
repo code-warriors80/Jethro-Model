@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import About from './Pages/About';
 import Classes from './Pages/Classes';
 import Gallery from './Pages/Gallery';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path='/about' element={<About />}></Route>
             <Route path='/classes' element={<Classes />}></Route>
             <Route path='/gallery' element={<Gallery />}></Route>
+            <Route path='/contact' element={<Contact />}></Route>
           </Routes>
           <Footer />
         </BrowserRouter>

@@ -34,7 +34,7 @@ const Header = () => {
                                              <li><Link to='/about' className='font-bold text-link-colol-2'>About</Link></li>
                                              <li><Link to='/classes' className='font-bold text-link-colol-4'>Class</Link></li>
                                              <li><Link to='/gallery' className='font-bold text-link-colol-5'>Gallery</Link></li>
-                                             <li><Link to='' className='font-bold text-link-colol-3'>Contact</Link></li>
+                                             <li><Link to='/contact' className='font-bold text-link-colol-3'>Contact</Link></li>
                               </ul>
 
                                 {model === true && (
@@ -43,7 +43,7 @@ const Header = () => {
                                                               <li className='p-10'><Link to='/about' className='font-bold text-link-colol-2' onClick={() => setModel(false)}>About</Link></li>
                                                               <li className='p-10'><Link to='/classes' className='font-bold text-link-colol-4' onClick={() => setModel(false)}>Class</Link></li>
                                                               <li className='p-10'><Link to='/gallery' className='font-bold text-link-colol-5' onClick={() => setModel(false)}>Gallery</Link></li>
-                                                              <li className='p-10'><Link to='' className='font-bold text-link-colol-3' onClick={() => setModel(false)}>Contact</Link></li>
+                                                              <li className='p-10'><Link to='/contact' className='font-bold text-link-colol-3' onClick={() => setModel(false)}>Contact</Link></li>
                                               </ul>
                                 )}
 
