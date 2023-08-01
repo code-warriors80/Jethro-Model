@@ -1,4 +1,3 @@
-import React from 'react'
 import Facility2 from '../components/Facility2'
 import About2 from '../components/About2'
 import boys from '../image/feature.jpg'
