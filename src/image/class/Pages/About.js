@@ -1,16 +1,19 @@
 import React from 'react'
+import {motion} from 'framer-motion'
+import { Zoom } from 'react-reveal'
+
+// PAGE COMPONENTS
 import Facility2 from '../components/Facility2'
 import About2 from '../components/About2'
+import NewsLetter from '../components/News-Letter'
+
+// IMAGES
 import boys from '../image/feature.jpg'
 import world from '../icon/icons8-location-94.png'
 import mind from '../icon/icons8-mind-map-94.png'
-// import book from '../icon/icons8-book-shelf-94.png'
 import teacher from '../icon/icons8-student-male-94.png'
 import microphone from '../icon/icons8-microphone-94.png'
 import gadget from '../icon/icons8-multiple-devices-94.png'
-import NewsLetter from '../components/News-Letter'
-import {motion} from 'framer-motion'
-import { Zoom } from 'react-reveal'
 
 const About = () => {
   return (
@@ -21,13 +24,16 @@ const About = () => {
                                              <motion.p initial={{opacity: 0}} animate={{opacity: 2}} transition={{delay: 1.5, duration: 5}} className='text-[18px] pb-16 font-semibold text-white text-center'>Home - About us</motion.p>
                               </div>
                </section>
+
                <Facility2/>
                <About2 />
+
                <section className='py-20'>
+
                                              <h1 className='text-[40px] font-[800] mb-5 text-link-colol-4 text-center'>Why Choose KidsAcademy</h1>
                                              <p className='text-center font-semibold text-black w-[85%] lg:w-[40%] text-[16px] mx-auto mb-20'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
                                              <div className='lg:flex items-center justify-between w-[75%] mx-auto'>
-                                                            <Zoom left>
+                                                  <Zoom left>
                                                             <div>
                                                                            <div className='mb-8 flex items-center flex-wrap-reverse'>
                                                                                           <div className='mr-5'>
@@ -53,11 +59,11 @@ const About = () => {
                                                                                           <img src={microphone}  alt='' className='mx-auto mb-3'/>
                                                                            </div>
                                                             </div>
-                                                            </Zoom>
+                                                  </Zoom>
 
-                                                            <img src={boys} alt='' className='py-10'/>
+                                                  <img src={boys} alt='' className='py-10'/>
 
-                                                            <Zoom right>
+                                                  <Zoom right>
                                                             <div>
                                                                            <div className='mb-8 flex items-center flex-wrap'>
                                                                                           <img src={teacher}  alt='' className='mx-auto mb-3'/>
@@ -83,7 +89,7 @@ const About = () => {
                                                                                           </div>
                                                                            </div>  
                                                             </div>
-                                                            </Zoom>
+                                                  </Zoom>
                                              </div>
                </section>
 
@@ -93,6 +99,7 @@ const About = () => {
                                              <p className='text-center font-semibold text-white w-[85%] lg:w-[40%] text-[16px] mx-auto mb-20'>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>         
                               </div>
                </section>
+               
                <NewsLetter />
     </div>
   )

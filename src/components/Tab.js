@@ -1,12 +1,15 @@
 import React, {useState} from 'react'
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import { Zoom } from 'react-reveal'
+
+
+// IMAGES
 import class1 from '../image/gallery/gallery_11.jpg'
 import class2 from '../image/gallery/gallery_12.jpg'
 import class3 from '../image/gallery/gallery_13.jpg'
 import class4 from '../image/gallery/gallery_14.jpg'
 import class5 from '../image/gallery/gallery_15.jpg'
 import class6 from '../image/gallery/gallery_16.jpg'
-import { Zoom } from 'react-reveal'
 
 const Tab = () => {
                const [toggleState, setToggle] = useState(1);
@@ -27,72 +30,74 @@ const Tab = () => {
 
                <div className={toggleState === 1 ? ' content active-content' : 'tabs'}>
                               <div className='lg:w-[70%] mx-auto py-20'>
-                                <ResponsiveMasonry columnsCountBreakPoints={{650: 1, 750: 2, 900: 3}} columnsCount={5} gutter='20px'>
-                                <Masonry>
-                                   <Zoom left> <img src={class5} alt='' className='p-2'/></Zoom>
-                                   <Zoom right> <img src={class2} alt='' className='p-2'/></Zoom>
-                                   <Zoom left> <img src={class3} alt='' className='p-2'/></Zoom>
-                                   <Zoom right> <img src={class6} alt='' className='p-2'/></Zoom>
-                                   <Zoom left> <img src={class1} alt='' className='p-2'/></Zoom>
-                                   <Zoom right> <img src={class4} alt=''  className='p-2'/></Zoom>
-                                </Masonry>
-                                </ResponsiveMasonry>
+                                      <ResponsiveMasonry columnsCountBreakPoints={{650: 1, 750: 2, 900: 3}} columnsCount={5} gutter='20px'>
+
+                                          <Masonry>
+                                                <Zoom left> <img src={class5} alt='' className='p-2'/></Zoom>
+                                                <Zoom right> <img src={class2} alt='' className='p-2'/></Zoom>
+                                                <Zoom left> <img src={class3} alt='' className='p-2'/></Zoom>
+                                                <Zoom right> <img src={class6} alt='' className='p-2'/></Zoom>
+                                                <Zoom left> <img src={class1} alt='' className='p-2'/></Zoom>
+                                                <Zoom right> <img src={class4} alt=''  className='p-2'/></Zoom>
+                                          </Masonry>
+
+                                      </ResponsiveMasonry>
                               </div>
                </div>
                <div className={toggleState === 2 ? ' content active-content' : 'tabs'}>
                               <div className='lg:w-[70%] mx-auto py-20'>
-                              <ResponsiveMasonry columnsCountBreakPoints={{650: 1, 750: 2, 900: 3}} columnsCount={5} gutter='20px'>
-                                <Masonry>
-                                   <Zoom left> <img src={class4} alt=''  className='p-2'/></Zoom>
-                                   <Zoom right> <img src={class5} alt='' className='p-2'/></Zoom>
-                                   <Zoom left> <img src={class2} alt='' className='p-2'/></Zoom>
-                                   <Zoom right> <img src={class1} alt='' className='p-2'/></Zoom>
-                                   <Zoom left> <img src={class3} alt='' className='p-2'/></Zoom>
-                                   <Zoom right> <img src={class6} alt='' className='p-2'/></Zoom>
-                                </Masonry>
-                                </ResponsiveMasonry>
+                                    <ResponsiveMasonry columnsCountBreakPoints={{650: 1, 750: 2, 900: 3}} columnsCount={5} gutter='20px'>
+                                            <Masonry>
+                                                  <Zoom left> <img src={class4} alt=''  className='p-2'/></Zoom>
+                                                  <Zoom right> <img src={class5} alt='' className='p-2'/></Zoom>
+                                                  <Zoom left> <img src={class2} alt='' className='p-2'/></Zoom>
+                                                  <Zoom right> <img src={class1} alt='' className='p-2'/></Zoom>
+                                                  <Zoom left> <img src={class3} alt='' className='p-2'/></Zoom>
+                                                  <Zoom right> <img src={class6} alt='' className='p-2'/></Zoom>
+                                            </Masonry>
+                                    </ResponsiveMasonry>
                               </div>
                </div>
                <div className={toggleState === 3 ? ' content active-content' : 'tabs'}>
                               <div className='lg:w-[70%] mx-auto py-20'>
-                              <ResponsiveMasonry columnsCountBreakPoints={{650: 1, 750: 2, 900: 3}} columnsCount={5} gutter='20px'>
-                                <Masonry>
-                                   <Zoom left> <img src={class6} alt='' className='p-2'/></Zoom>
-                                   <Zoom right> <img src={class5} alt='' className='p-2'/></Zoom>
-                                   <Zoom left> <img src={class4} alt=''  className='p-2'/></Zoom>
-                                   <Zoom right> <img src={class3} alt='' className='p-2'/></Zoom>
-                                   <Zoom left> <img src={class1} alt='' className='p-2'/></Zoom>
-                                    <Zoom right><img src={class2} alt='' className='p-2'/></Zoom>
-                                </Masonry>
-                                </ResponsiveMasonry>
+                                  <ResponsiveMasonry columnsCountBreakPoints={{650: 1, 750: 2, 900: 3}} columnsCount={5} gutter='20px'>
+                                        <Masonry>
+                                              <Zoom left> <img src={class6} alt='' className='p-2'/></Zoom>
+                                              <Zoom right> <img src={class5} alt='' className='p-2'/></Zoom>
+                                              <Zoom left> <img src={class4} alt=''  className='p-2'/></Zoom>
+                                              <Zoom right> <img src={class3} alt='' className='p-2'/></Zoom>
+                                              <Zoom left> <img src={class1} alt='' className='p-2'/></Zoom>
+                                              <Zoom right><img src={class2} alt='' className='p-2'/></Zoom>
+                                        </Masonry>
+                                  </ResponsiveMasonry>
                               </div>
                </div>
                <div className={toggleState === 4 ? ' content active-content' : 'tabs'}>
                               <div className='lg:w-[70%] mx-auto py-20'>
-                              <ResponsiveMasonry columnsCountBreakPoints={{650: 1, 750: 2, 900: 3}} columnsCount={5} gutter='20px'>
-                                <Masonry>
-                                  <Zoom left><img src={class2} alt='' className='p-2'/></Zoom>
-                                  <Zoom right><img src={class6} alt='' className='p-2'/></Zoom>
-                                  <Zoom left>  <img src={class3} alt='' className='p-2'/></Zoom>
-                                  <Zoom right> <img src={class1} alt='' className='p-2'/></Zoom>
-                                  <Zoom left>  <img src={class4} alt=''  className='p-2'/></Zoom>
-                                  <Zoom right><img src={class5} alt='' className='p-2'/></Zoom>
-                                </Masonry>
-                                </ResponsiveMasonry>
+                                  <ResponsiveMasonry columnsCountBreakPoints={{650: 1, 750: 2, 900: 3}} columnsCount={5} gutter='20px'>
+                                        <Masonry>
+                                              <Zoom left><img src={class2} alt='' className='p-2'/></Zoom>
+                                              <Zoom right><img src={class6} alt='' className='p-2'/></Zoom>
+                                              <Zoom left>  <img src={class3} alt='' className='p-2'/></Zoom>
+                                              <Zoom right> <img src={class1} alt='' className='p-2'/></Zoom>
+                                              <Zoom left>  <img src={class4} alt=''  className='p-2'/></Zoom>
+                                              <Zoom right><img src={class5} alt='' className='p-2'/></Zoom>
+                                        </Masonry>
+                                  </ResponsiveMasonry>
                               </div>
                </div>
                <div className={toggleState === 5 ? ' content active-content' : 'tabs'}>
                               <div className='lg:w-[70%] mx-auto py-20'>
-                              <ResponsiveMasonry columnsCountBreakPoints={{650: 1, 750: 2, 900: 3}} columnsCount={5} gutter='20px'>
-                                <Masonry>
-                                  <Zoom left>  <img src={class3} alt='' className='p-2'/></Zoom>
-                                  <Zoom right>  <img src={class1} alt='' className='p-2'/></Zoom>
-                                  <Zoom left>  <img src={class5} alt='' className='p-2'/></Zoom>
-                                  <Zoom right>  <img src={class2} alt='' className='p-2'/></Zoom>
-                                  <Zoom left>  <img src={class6} alt='' className='p-2'/></Zoom>
-                                  <Zoom right>  <img src={class4} alt=''  className='p-2'/></Zoom>
-                                </Masonry>
-                                </ResponsiveMasonry>
+                                  <ResponsiveMasonry columnsCountBreakPoints={{650: 1, 750: 2, 900: 3}} columnsCount={5} gutter='20px'>
+                                        <Masonry>
+                                              <Zoom left>  <img src={class3} alt='' className='p-2'/></Zoom>
+                                              <Zoom right>  <img src={class1} alt='' className='p-2'/></Zoom>
+                                              <Zoom left>  <img src={class5} alt='' className='p-2'/></Zoom>
+                                              <Zoom right>  <img src={class2} alt='' className='p-2'/></Zoom>
+                                              <Zoom left>  <img src={class6} alt='' className='p-2'/></Zoom>
+                                              <Zoom right>  <img src={class4} alt=''  className='p-2'/></Zoom>
+                                        </Masonry>
+                                  </ResponsiveMasonry>
                               </div>
                </div>
     </div>

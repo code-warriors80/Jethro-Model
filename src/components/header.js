@@ -1,13 +1,15 @@
 import React, {useState} from 'react'
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom'
+
+// IMAGES
 import insta from '../icon/icons8-instagram-94.png'
 import facebook from '../icon/icons8-facebook-94.png'
 import twitter from '../icon/icons8-twitter-circled-94.png'
 import gmail from '../icon/icons8-gmail-logo-94.png'
 import menu from '../icon/icons8-menu-94.png'
 import close from '../icon/icons8-close-94.png'
-import { Link } from 'react-router-dom'
 import logo from '../image/1574619145-removebg-preview.png'
-import { motion } from 'framer-motion';
 
 const Header = () => {
     const [model, setModel] = useState(false);
@@ -19,6 +21,7 @@ const Header = () => {
                                              <div className='text-[13px] flex items-center'>Opening Time:<p className='ml-3'>9:30am-5:30pm</p></div>
                                              <div className='text-[13px] flex items-center'>Address:<p className='ml-3'>Labartisan 1205 Newyork</p></div>
                               </div>
+
                               <div className='flex items-center gap-10'>
                                              <i><img src={insta} alt='' className='w-6'/></i>
                                              <i><img src={facebook} alt='' className='w-6'/></i>
@@ -29,6 +32,7 @@ const Header = () => {
 
                <motion.nav initial={{y: -150}} animate={{y: 0}} transition={{delay: 1.0}} className='flex items-center justify-between px-12 lg:px-44 py-3 lg:py-3 bg-white'>
                               <div><img src={logo} alt='' className='w-[40px] lg:w-[50px]'/></div>
+
                               <ul className='hidden lg:flex items-center justify-between gap-20 links'>
                                              <li><Link to='/' className='font-bold text-link-colol-1'>Home</Link></li>
                                              <li><Link to='/about' className='font-bold text-link-colol-2'>About</Link></li>
